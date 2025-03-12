@@ -1,23 +1,23 @@
-package PokemonJagt;
+package Opgaver.PokemonJagt;
 
 import java.util.ArrayList;
 
-public class Mountain {
-    private ArrayList<Pokemon> pokemonListMountain = new ArrayList<>();
+public class Forest {
+    private ArrayList<Pokemon> pokemonListForest = new ArrayList<>();
 
     public void addPokemon(Pokemon pokemon) {
-        pokemonListMountain.add(pokemon);
+        pokemonListForest.add(pokemon);
     }
 
     public void showAllPokemon() {
-        System.out.println("\nPokémon på bjerget:");
-        for (Pokemon p : pokemonListMountain) {
+        System.out.println("\nPokémon i skoven:");
+        for (Pokemon p : pokemonListForest) {
             System.out.println(p);
         }
     }
 
     public Pokemon searchPokemonByName(String name) {
-        for (Pokemon p : pokemonListMountain) {
+        for (Pokemon p : pokemonListForest) {
             if (p.getName().equalsIgnoreCase(name)) {
                 return p;
             }
@@ -26,7 +26,7 @@ public class Mountain {
     }
 
     public Pokemon searchPokemonByType(String type) {
-        for (Pokemon p : pokemonListMountain) {
+        for (Pokemon p : pokemonListForest) {
             if (p.getType().equalsIgnoreCase(type)) {
                 return p;
             }

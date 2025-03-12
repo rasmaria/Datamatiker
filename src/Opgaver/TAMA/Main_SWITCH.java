@@ -1,4 +1,4 @@
-package TAMA;
+package Opgaver.TAMA;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Zodiac;
+package Opgaver.Zodiac;
 
 import java.util.Scanner;
 
@@ -215,7 +215,7 @@ public class ZodiacSignFinder {
             }
         }
 
-        System.out.println("Your Chinese Zodiac Sign is a: " + chineseZodiac + "!");
+        System.out.println("Your Chinese Opgaver.Zodiac Sign is a: " + chineseZodiac + "!");
 
 
             }
@@ -224,7 +224,7 @@ public class ZodiacSignFinder {
 
 //Stjernetegn
 //
-//1.	Lav en ny Java class der hedder Zodiac.ZodiacSignFinder.
+//1.	Lav en ny Java class der hedder Opgaver.Zodiac.ZodiacSignFinder.
 //2.	Lav et Scanner objekt inde i main metoden, der kan læse inputs fra brugeren.
 //3.	Bed din bruger om at skrive måneden for deres fødslesdag som et tal (1-12), og gem det i en variabel.
 //4.	Bed din bruger om at skrive dagen for deres fødselsdag som et tal (1-31), og gem det i en anden variabel.

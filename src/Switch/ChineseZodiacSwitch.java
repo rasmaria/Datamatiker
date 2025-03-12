@@ -53,7 +53,7 @@ public class ChineseZodiacSwitch {
                 break;
         }
 
-        System.out.println("Your Chinese Zodiac Sign is a: " + chineseZodiac + "!");
+        System.out.println("Your Chinese Opgaver.Zodiac Sign is a: " + chineseZodiac + "!");
 
     }
 }

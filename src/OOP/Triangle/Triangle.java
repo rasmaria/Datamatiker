@@ -1,4 +1,4 @@
-package Triangle;
+package OOP.Triangle;
 
 public class Triangle {
     static int numOfSides = 3;

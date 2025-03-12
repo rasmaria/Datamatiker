@@ -1,4 +1,4 @@
-package PokemonJagt;
+package Opgaver.PokemonJagt;
 
 public class Pokemon {
     private String name;

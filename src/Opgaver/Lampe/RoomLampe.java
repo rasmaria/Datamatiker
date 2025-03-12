@@ -1,4 +1,4 @@
-package Lampe;
+package Opgaver.Lampe;
 
 public class RoomLampe {
     public static void main(String[] args) {

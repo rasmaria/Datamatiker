@@ -1,4 +1,4 @@
-package PokemonJagt;
+package Opgaver.PokemonJagt;
 
 public class Trainer {
     private String name;

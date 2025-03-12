@@ -1,4 +1,4 @@
-package Zodiac;
+package Opgaver.Zodiac;
 
 import java.util.Scanner;
 
@@ -220,7 +220,7 @@ public class ZodiacSignFinderSwitch {
             }
         }
 
-        System.out.println("Your Chinese Zodiac Sign is a: " + chineseZodiac + "!");
+        System.out.println("Your Chinese Opgaver.Zodiac Sign is a: " + chineseZodiac + "!");
 
 
             }

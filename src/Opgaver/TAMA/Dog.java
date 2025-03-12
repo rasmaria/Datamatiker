@@ -1,4 +1,4 @@
-package TAMA;
+package Opgaver.TAMA;
 
 public class Dog extends Tamagotchi{
     private int race;

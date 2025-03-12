@@ -1,4 +1,4 @@
-package TAMA;
+package Opgaver.TAMA;
 
 public class Cat extends Tamagotchi{
 
