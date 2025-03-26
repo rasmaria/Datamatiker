@@ -1,3 +1,5 @@
+package BlackDice;
+
 import java.util.Scanner;
 import java.util.Random;
 
