@@ -1,4 +1,4 @@
-package FileInputOutput;
+package FileInputOutput.FileTest;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -19,7 +19,7 @@ public class FileTest {
         Scanner inFile = null;
 
         try {
-            inFile = new Scanner(new File("src/FileInputOutput/words.txt")); //relative, not a root
+            inFile = new Scanner(new File("src/FileInputOutput/FileTest/words.txt")); //relative, not a root
             while (inFile.hasNextLine()) {
                 String line = inFile.nextLine();
                 System.out.println(line);
@@ -31,7 +31,7 @@ public class FileTest {
 
         // file output
         try {
-            PrintStream outFile = new PrintStream(new File("src/FileInputOutput/out.txt"));
+            PrintStream outFile = new PrintStream(new File("src/FileInputOutput/FileTest/out.txt"));
             outFile.println("This is my first line in the output file!");
             Random random = new Random();
             for (int i = 0; i < 10; i++) {
